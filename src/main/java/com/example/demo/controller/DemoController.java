@@ -21,7 +21,7 @@ public class DemoController {
 
 	@GetMapping("/home")
 	public String homePage() {
-		return "welcome to homepage";
+		return "welcome to homePageOne";
 	}
 	
 	@GetMapping("/demo")
