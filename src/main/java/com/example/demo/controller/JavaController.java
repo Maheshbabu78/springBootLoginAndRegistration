@@ -10,4 +10,9 @@ public class JavaController {
 	public String getInfo() {
 		return "mahesh";
 	}
+	
+	@GetMapping
+	public String getInfo1() {
+		return "mahesh";
+	}
 }
