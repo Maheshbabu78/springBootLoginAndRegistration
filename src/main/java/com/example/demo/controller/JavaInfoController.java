@@ -8,6 +8,6 @@ public class JavaInfoController {
 
 	@GetMapping("/info")
 	public String information() {
-		return "message";
+		return "messageOne";
 	}
 }
