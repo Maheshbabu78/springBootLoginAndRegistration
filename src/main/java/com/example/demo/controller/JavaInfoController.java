@@ -4,15 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class JavaController {
+public class JavaInfoController {
 
-	@GetMapping
-	public String getInfo() {
-		return "maheshbabu";
-	}
-	
-	@GetMapping
-	public String getInfo1() {
-		return "maheshbabu";
+	@GetMapping("/homepage")
+	public String homePageOne() {
+		return "welcome to homepage";
 	}
 }
