@@ -35,7 +35,7 @@ public class DemoController {
 	}
 	@GetMapping("/welcome")
 	public String welcomePage() {
-		return "welcome Page";
+		return "welcome Page maheshbabu";
 	}
 
 	@PostMapping("/register")
