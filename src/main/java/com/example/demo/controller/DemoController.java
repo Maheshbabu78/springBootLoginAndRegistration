@@ -23,6 +23,11 @@ public class DemoController {
 	public String homePage() {
 		return "welcome to homepage";
 	}
+	
+	@GetMapping("/demo")
+	public String demPage() {
+		return "welcome to homepage";
+	}
 
 	@GetMapping("/welcome")
 	public String welcomePage() {
