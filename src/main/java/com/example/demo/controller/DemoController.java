@@ -29,6 +29,10 @@ public class DemoController {
 		return "welcome to homepage";
 	}
 
+	@GetMapping("/data")
+	public String dataPage() {
+		return "welcome to homepage";
+	}
 	@GetMapping("/welcome")
 	public String welcomePage() {
 		return "welcome Page";
