@@ -11,8 +11,4 @@ public class JavaController {
 		return "maheshbabu";
 	}
 	
-	@GetMapping
-	public String getInfo1() {
-		return "maheshbabu";
-	}
 }

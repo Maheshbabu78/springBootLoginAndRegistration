@@ -4,10 +4,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class JavaInfoController {
+public class ModifyController {
 
-	@GetMapping("/info")
-	public String information() {
-		return "messageOne";
+	@GetMapping
+	public String getInformation() {
+		return "maheshbabu";
 	}
+	
 }
