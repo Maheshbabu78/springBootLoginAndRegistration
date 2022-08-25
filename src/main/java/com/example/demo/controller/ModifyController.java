@@ -8,7 +8,7 @@ public class ModifyController {
 
 	@GetMapping
 	public String getInformation() {
-		return "maheshbabu";
+		return "maheshbabuOne";
 	}
 	
 }
