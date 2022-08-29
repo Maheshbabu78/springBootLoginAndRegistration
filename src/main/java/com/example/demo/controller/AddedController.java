@@ -8,6 +8,6 @@ public class AddedController {
 
 	@GetMapping("/homeOneInfo")
 	public String Page() {
-		return "home";
+		return "homePage";
 	}
 }
