@@ -11,7 +11,7 @@ public class ModifyController {
 		return "maheshbabuOne";
 	}
 	@GetMapping
-	public String getInformation2() {
+	public String getInformationtwo() {
 		return "maheshbabuOne";
 	}
 	
