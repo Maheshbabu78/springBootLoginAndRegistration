@@ -10,4 +10,9 @@ public class AddedController {
 	public String Page() {
 		return "homePage";
 	}
+	
+	@GetMapping("/homeOneInfo")
+	public String PageOne() {
+		return "homePage";
+	}
 }
