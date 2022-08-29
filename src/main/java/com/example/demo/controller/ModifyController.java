@@ -10,5 +10,9 @@ public class ModifyController {
 	public String getInformation() {
 		return "maheshbabuOne";
 	}
+	@GetMapping
+	public String getInformation2() {
+		return "maheshbabuOne";
+	}
 	
 }
