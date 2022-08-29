@@ -33,7 +33,7 @@ public class DemoController {
 	public String dataPage() {
 		return "welcome to homepage";
 	}
-	@GetMapping("/welcome")
+	@GetMapping("/userwelcome")
 	public String welcomePage() {
 		return "welcome Page maheshbabu";
 	}
