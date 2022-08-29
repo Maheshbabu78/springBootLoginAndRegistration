@@ -6,7 +6,7 @@ import com.example.demo.model.User;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 	
-
+   //chages here
 	public User findByEmail(String email);
 
 	public User findByEmailAndPassword(String email, String password);
