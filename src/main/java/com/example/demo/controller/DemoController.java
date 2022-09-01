@@ -26,7 +26,7 @@ public class DemoController {
 	
 	@GetMapping("/demo")
 	public String demoPage() {
-		return "welcome to homepage";
+		return "welcome to homepageone";
 	}
 
 	@GetMapping("/data")
