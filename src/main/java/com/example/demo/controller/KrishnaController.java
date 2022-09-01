@@ -8,6 +8,6 @@ public class KrishnaController {
 
 	@GetMapping("/lord")
 	public String lord() {
-		return "karthikeya2";
+		return "karthikeya2 and three";
 	}
 }
