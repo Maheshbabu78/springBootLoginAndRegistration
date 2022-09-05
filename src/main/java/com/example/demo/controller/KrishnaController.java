@@ -10,4 +10,8 @@ public class KrishnaController {
 	public String lord() {
 		return "karthikeya2 and three";
 	}
+	@GetMapping("/lorddeva")
+	public String lordDeva() {
+		return "karthikeya2 and three";
+	}
 }
